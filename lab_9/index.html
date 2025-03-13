@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>lab 9</title>
+</head>
+
+<body bgcolor="beige" text="darkblue" link="black" vlink="red">
+    <!--Каюков А.И. ИВТ-23 Вариант 1-->
+    <h1>Каюков А.И. 9 лаба</h1>
+    <div style="text-align: left;">
+        <p><u><i>Демонстрация тега</i></u> p - в отличии от br он просто выделяет абзац</p>
+        br же в свою очередь осуществляет перенос строки.<br>
+        тег <b>div</b> позволяет определить раздел или секцию в документе<br>
+        кроме того, задать этой секции стиль<br>
+        <span style="color: crimson;">тег span - блочный тег для выделения строк, подобно div</span>
+    </div>
+
+    <h2>Заголовок 2 ур</h2>
+    <h3>Заголовок 3 ур</h3>
+    <h4>Заголовок 4 ур</h4>
+    <h5>Заголовок 5 ур</h5>
+    <h6>Заголовок 6 ур</h6>
+
+    <pre>
+        Заранее
+        отформатированный
+        текст - pre
+    </pre>
+
+    Картинка:<br>
+    <img src="cat.jpg" width="200" /> <br>
+
+    <a href="./2.html">ссылка на другой документ</a><br>
+
+
+    Задание по варианту:<br>
+    <ol type="i" START="1000">
+        <li>Зима</li>
+        <ul type="circle">
+            <li>Декабрь</li>
+            <li>Январь</li>
+            <li>Февраль</li>
+        </ul>
+        <li>Весна</li>
+        <li>Лето</li>
+        <li>Осень</li>
+    </ol>
+
+    <table border="1px" width="15%" height="99px">
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <br>
+
+    <form>
+        <input type="text" id="lname" name="lname"> <br>
+
+        <br>
+        <input type="radio" id="nov" name="fav_language" value="HTML">
+        <label for="nov">Новосибирск</label><br>
+        <input type="radio" id="omsk" name="fav_language" value="HTML">
+        <label for="omsk">Омск</label><br>
+        <input type="radio" id="tomsk" name="fav_language" value="HTML">
+        <label for="tomsk">Томск</label><br>
+    
+        <br>
+        <input type="password">
+        <br>
+        <br>
+    
+        <select>
+            <option value="nov">Новосибирск</option>
+            <option value="omsk" selected>Омск</option>
+            <option value="tomsk">Томск</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" value="Отправить">
+        <input type="reset">
+
+    </form>
+
+</body>
+
+</html>
